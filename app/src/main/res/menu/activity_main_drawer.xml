@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="账号与安全" />
+        <item
+            android:id="@+id/nav_finger"
+            android:icon="@drawable/ic_fingerprint_black_180dp"
+            android:title="指纹验证" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="智能锁管理" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="开锁记录"/>
+    </group>
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="帮助与反馈" />
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/ic_navigate_before_black_24dp"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>
